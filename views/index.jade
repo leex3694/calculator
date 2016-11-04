@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 Calculator
+    form(method="POST", id="calculate")
+      input(type="text", class="firstNumber" name="num1")
+      input(type="text", class="secondNumber" name="num2")
+      .answer
+      br
+      .buttonClass
+        button(class="add operatorClicker") +
+        button(class="subtract operatorClicker") -
+        button(class="divide operatorClicker") /
+        button(class="multiply operatorClicker") *
+      .equalButton
+        button.submit(class="equals") =
+

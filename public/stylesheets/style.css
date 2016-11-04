@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+/*.selected {*/
+  /*color: red;*/
+/*}*/
+
+.selected {
+  background-color: #54b229;
+}
